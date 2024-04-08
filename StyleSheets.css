@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(31, 79, 168);
+}
+
+head {
+    background-color: rgb(31, 79, 168);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.hexagon{
+    position: relative;
+    bottom: 100rem;
+    left: 85rem;
+}
+
+.ac{
+    text-align: center;
+    position: relative;
+    bottom: 46em;
+}
+
+.ca{
+    text-align: left;
+    position: relative;
+    left: 21em;
+    bottom: 53em;
+
+}
+
+.h1{
+    text-align: center;
+    position: relative;
+    bottom: 40em;
+    right: 1em;
+}
+
+.ammount{
+    text-align: center;
+    position: relative;
+    bottom: 55em;
+}
+
+.cat{
+    text-align: right;
+    position: relative;
+    bottom: 51em;
+    right: 19em;
+}
+
+.taco{
+    text-align: right;
+    position: relative;
+    bottom: 51em;
+    right: 22em;   
+}
+
+.b{
+    text-align: left;
+    position: relative;
+    bottom: 54em;
+    left: 21em;  
+}
+
+.ttt{
+    text-align: left;
+    position: relative;
+    bottom: 51em;
+    left: 21em;  
+}
+
+.email{
+    text-align: left;
+    position: relative;
+    bottom: 125em;
+    left: 85em;
+}
+
+.eteteteee{
+    text-align: center;
+    position: relative;
+    bottom: 100em;
+    right: 3em;   
+}
