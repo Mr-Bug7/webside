@@ -13,75 +13,27 @@ head {
 
 .hexagon{
     position: relative;
-    bottom: 100rem;
-    left: 85rem;
+    bottom: 60%;
+    z-index: 0;
 }
 
-.ac{
-    text-align: center;
-    position: relative;
-    bottom: 46em;
+#main-container {
+    background-image: url(/PhotoForWebsite.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1280px;
+    margin-top: 60px;
+    padding-top: 40px;
+    z-index: -2;
 }
 
-.ca{
-    text-align: left;
-    position: relative;
-    left: 21em;
-    bottom: 53em;
-
+.column > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
 }
 
-.h1{
-    text-align: center;
-    position: relative;
-    bottom: 40em;
-    right: 1em;
-}
-
-.ammount{
-    text-align: center;
-    position: relative;
-    bottom: 55em;
-}
-
-.cat{
-    text-align: right;
-    position: relative;
-    bottom: 51em;
-    right: 19em;
-}
-
-.taco{
-    text-align: right;
-    position: relative;
-    bottom: 51em;
-    right: 22em;   
-}
-
-.b{
-    text-align: left;
-    position: relative;
-    bottom: 54em;
-    left: 21em;  
-}
-
-.ttt{
-    text-align: left;
-    position: relative;
-    bottom: 51em;
-    left: 21em;  
-}
-
-.email{
-    text-align: left;
-    position: relative;
-    bottom: 125em;
-    left: 85em;
-}
-
-.eteteteee{
-    text-align: center;
-    position: relative;
-    bottom: 100em;
-    right: 3em;   
+div > h1,h2 {
+    z-index: 1;
 }
